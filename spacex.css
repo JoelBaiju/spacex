@@ -115,19 +115,19 @@ section {
   }
  
   .secb{
-    background-image: url('./section\ B.jpg');
+    background-image: url('section\ B.jpg');
     
   }
 
 
 
   .secc{
-    background-image: url('./section\ c\ new.jpg');
+    background-image: url('section\ c\ new.jpg');
   }
 
 
   .secd{
-    background-image: url('./section\ D.jpg');
+    background-image: url('section\ D.jpg');
     
   }
   .sectext{
