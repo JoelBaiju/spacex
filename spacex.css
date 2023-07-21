@@ -1,0 +1,173 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@600;700&display=swap');
+
+
+   *,*::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  body{
+    font-family: 'Familjen Grotesk', sans-serif;
+    background: black;
+    color: white;
+  }
+  ul{
+    list-style: none;
+  }
+  
+
+  .main-header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-transform: uppercase;
+     padding:0 30px ;
+  }
+  .shop{
+    font-size: small;
+  }
+
+
+  .logo img{
+    width: 55%;
+    display: block;
+    height: auto;
+    margin-left: 4rem;
+  }
+
+  .mainmenu{
+    margin-right: 20rem;
+
+  }
+  .mainmenu ul{
+    display: flex;
+  }
+
+  .mainmenu ul li{
+    position: relative;
+    margin-right: 20px;
+    padding: 2px;
+    font-size: 15px;
+  }
+
+  .mainmenu ul li::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    transform: scalex(0);
+    transition:transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+    transform-origin:right center ;
+  }
+
+  .mainmenu ul li:hover::after{
+        transform: scaleX(1);
+        transform-origin:left center ;
+        transition-duration:0.4s;
+        cursor: pointer;
+  }
+section {
+    
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+
+
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    max-width: 10rem;
+    font-family: sans-serif;
+    font-size:large ;
+    padding: 10px;
+    border: #fff;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 2rem;
+   
+}
+
+.watch:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+    
+}
+ .seca {
+    
+    background-image: url('./Sectioin\ A.jpg');
+  }
+ 
+  .secb{
+    background-image: url('./section\ B.jpg');
+    
+  }
+
+
+
+  .secc{
+    background-image: url('./section\ c\ new.jpg');
+  }
+
+
+  .secd{
+    background-image: url('./section\ D.jpg');
+    
+  }
+  .sectext{
+    margin-top: 28rem;
+     position: absolute;
+     border-bottom: 200px;
+     left: 120px;
+     max-width: 560px; ;
+  }
+  h4{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: normal;
+  }
+
+  
+
+  .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:2rem; ;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    font-size:smaller;
+  }
+  .bottomtext ul{
+    display: flex;
+    padding-left: 30px;
+  }
+  .bt{
+    padding-left: 3rem;
+    color: #fff;
+    
+  }
+  .bt:hover{
+    color:rgb(240, 249, 249,0.5);
+    cursor: pointer;
+  }
+  .copyright{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: smaller;
+  }
